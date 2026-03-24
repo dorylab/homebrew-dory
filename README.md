@@ -1,23 +1,14 @@
 # Dory Homebrew Tap
 
-## Install
+## How do I install these formulae?
 
-```
-brew install dorylab/dory/dory
-```
+`brew install --cask dorylab/dory/<formula>`
 
-Or tap first:
+Or `brew tap dorylab/dory` and then `brew install --cask <formula>`.
 
-```
-brew tap dorylab/dory
-brew install --cask dory
-```
+## Upgrade formula version
 
-## Upgrade
-
-```
-brew upgrade --cask dory
-```
+`brew bump-cask-pr --no-fork --version <version> dorylab/dory/dory`
 
 ## Documentation
 
