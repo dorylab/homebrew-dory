@@ -2,9 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install --cask dorylab/dory/<formula>`
+`brew install dorylab/dory/<formula>`
 
-Or `brew tap dorylab/dory` and then `brew install --cask <formula>`.
+Or `brew tap dorylab/dory` and then `brew install <formula>`.
 
 ## Upgrade formula version
 
