@@ -4,8 +4,6 @@
 
 `brew install dorylab/dory/<formula>`
 
-Or `brew tap dorylab/dory` and then `brew install <formula>`.
-
 ## Upgrade formula version
 
 `brew bump-cask-pr --no-fork --version <version> dorylab/dory/dory`
