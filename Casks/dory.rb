@@ -1,5 +1,5 @@
 cask "dory" do
-  version "0.8.2"
+  version "0.8.3"
 
   name "Dory"
   desc "The database manager for modern developers"
@@ -7,10 +7,10 @@ cask "dory" do
 
   if Hardware::CPU.intel?
     url "https://github.com/dorylab/dory/releases/download/v#{version}/Dory-#{version}-x64.dmg"
-    sha256 "90d4db88c0549068913ca5eb1ab03b7d2fa3b172d488a2eee89f56554e5eeaf3"
+    sha256 "2389a0a440140b0a9b7f5eb9668ecf291acdceee9e12631353e7ffa641eb03c1"
   else
     url "https://github.com/dorylab/dory/releases/download/v#{version}/Dory-#{version}-arm64.dmg"
-    sha256 "3cea610e1d58a0e976d23c4d0bbb3f7d345dea5af55c96a382c9887eba0e358c"
+    sha256 "c7c48508272ed4cb81a406e85a09b4a3fbf5021f155ede8b67346368113bac37"
   end
 
   app "Dory.app"
